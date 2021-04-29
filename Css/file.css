@@ -1,0 +1,84 @@
+* {
+    margin: auto;
+    width: auto;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
+
+
+/* .content {
+    background-image: url('./img/2.jpg');
+    background-size: cover;
+} */
+
+.header h1 {
+    border: double darkslategray;
+    margin: 0px;
+    font-size: 45px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: white;
+    padding: 10px;
+    /* transition: linear 2s; */
+}
+
+nav {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    flex-grow: 1;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid #cecece;
+    padding: 20px;
+    font-family: sans-serif;
+    /* letter-spacing: 2; */
+    position: relative;
+    margin: 4px 2px;
+}
+
+.style .img-style {
+    width: 350px;
+    height: auto;
+    background-position: center;
+    text-align: center;
+    padding-right: 990PX;
+    padding-top: 90px;
+    transition: linear 1s;
+}
+
+.text-box {
+    padding: 20px;
+    background-color: darkslategrey;
+    width: 35%;
+    margin-left: 40%;
+    margin-top: -16%;
+    font-style: italic;
+    transition: linear 1s;
+}
+
+
+/* .list .list {
+    padding: 25px;
+    background-color: darkslategrey;
+    font-size: 10px;
+    width: 13%;
+    margin-right: 34%;
+    margin-top: -5%;
+    transition: linear 2s;
+} */
+
+.footer {
+    padding-top: 300px;
+    text-align: center;
+    font: 1em sans-serif;
+    font-size: 20px;
+}
+
+.footer:hover {
+    font-size: 22px;
+}
